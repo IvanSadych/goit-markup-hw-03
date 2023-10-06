@@ -122,7 +122,7 @@ p {
   
   /*Hero-section*/
   
-  .hero-inner {
+  .hero-section {
     background-color: var(--headings-color);
     display: flex;
     flex-direction: column;
