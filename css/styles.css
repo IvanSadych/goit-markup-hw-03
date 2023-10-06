@@ -5,6 +5,7 @@
     --headings-color: #2e2f42;
     --primary-brand-color: #4d5ae5;
     --active-button-color: #404bbf;
+    --portfolio-border-color: #e7e9fc;
   }
   
   body {
@@ -31,11 +32,6 @@ p {
     list-style-type: none;
     margin: 0;
   padding-left: 0;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
   }
 
   .container {
@@ -162,6 +158,7 @@ p {
   .features-list {
     display: flex;
     gap: 24px;
+    align-items: center;
   }
 .visually-hidden {
   position: absolute;
@@ -185,13 +182,6 @@ p {
     margin-bottom: 8px;
   }
   
-  
-  .text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
-  
   /*Team-section*/
 
 .team-section {
@@ -211,6 +201,7 @@ p {
 .team-inner {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .team-list {
@@ -218,17 +209,91 @@ p {
   gap: 24px;
 }
 
-.team-block {
-  display: flex;
-}
-
 .team-item {
   background-color: var(--body-bg-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-list-title {
+  color: var(--headings-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+}
+
+/*Portfolio-section*/
+
+.portfolio-inner {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--portfolio-border-color);
+}
+
+.portfolio-list-title {
+  color: var(--headings-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+}
+
+/*Footer-section*/
+
+.footer-inner {
+  display: flex;
+  align-items: flex-start;
   flex-direction: column;
 }
 
-  
+.logo {
+  margin-bottom: 16px;
+}
+
   .footer-logo-accent {
     color: var(--bright_text-color);
   }
