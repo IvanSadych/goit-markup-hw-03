@@ -114,6 +114,14 @@ p {
     background-color: var(--headings-color);
   }
   
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 188px 472px 292px;
+  }
+
   .hero-title {
     color: var(--body-bg-color);
     font-size: 56px;
@@ -140,6 +148,16 @@ p {
 
   /*Features-section*/
 
+  .features-inner {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+  }
+  
+  .features-list {
+    display: flex;
+    gap: 24px;
+  }
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -159,10 +177,10 @@ p {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
   }
   
   
-
   .text {
     font-size: 16px;
     line-height: 1.5;
