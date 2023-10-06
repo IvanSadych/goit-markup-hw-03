@@ -46,8 +46,9 @@ p {
 
   .header-inner {
     display: flex;
+    justify-content: center;
   }
-  
+
   .header-menu {
     display: flex;
     align-items: center;
