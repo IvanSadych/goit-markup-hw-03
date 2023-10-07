@@ -12,7 +12,10 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--body-text-color);
   background-color: var(--body-bg-color);
+  
 }
+
+
 
 h1,
 h2,
@@ -260,7 +263,9 @@ img {
 }
 
 /*Portfolio-section*/
-
+.sectionsection-list-title {
+  margin-bottom: 8px;
+}
 .portfolio-section {
   padding: 120px 0 120px 0;
 }
