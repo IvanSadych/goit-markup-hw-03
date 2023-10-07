@@ -214,6 +214,7 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 8px;
 }
 
   
@@ -227,7 +228,7 @@ p {
   text-transform: capitalize;
   line-height: 1.11;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
   
 }
 
